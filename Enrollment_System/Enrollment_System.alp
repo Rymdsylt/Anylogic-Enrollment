@@ -245,39 +245,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1732891139228</Id>
-					<Name><![CDATA[connector4]]></Name>
-					<X>260</X><Y>150</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[enrollement_system]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedSelectOutput]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
-						<ItemName><![CDATA[out1]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[enrollement_system]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedWait]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedWait]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>100</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1732891144016</Id>
 					<Name><![CDATA[connector5]]></Name>
 					<X>260</X><Y>170</Y>
@@ -546,39 +513,6 @@
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1732938366631</Id>
-					<Name><![CDATA[connector13]]></Name>
-					<X>400</X><Y>300</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[enrollement_system]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedWait4]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedWait]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[enrollement_system]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedService4]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>90</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1732940876756</Id>
 					<Name><![CDATA[connector14]]></Name>
 					<X>530</X><Y>150</Y>
@@ -714,41 +648,6 @@
 						<Point><X>30</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>-115</Y></Point>
 						<Point><X>50</X><Y>-115</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1732940898275</Id>
-					<Name><![CDATA[connector18]]></Name>
-					<X>530</X><Y>300</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[enrollement_system]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedService4]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedService]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[enrollement_system]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[pedWaitMedical]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
-						<ClassName><![CDATA[PedWait]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>-150</Y></Point>
-						<Point><X>50</X><Y>-150</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -916,6 +815,107 @@
 						<Point><X>95</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
+				<Connector>
+					<Id>1732891139228</Id>
+					<Name><![CDATA[connector4]]></Name>
+					<X>260</X><Y>150</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedSelectOutput]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedSelectOutput]]></ClassName>
+						<ItemName><![CDATA[out1]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedWait]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>100</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1732940898275</Id>
+					<Name><![CDATA[connector18]]></Name>
+					<X>530</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedService4]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedWaitMedical]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>-150</Y></Point>
+						<Point><X>50</X><Y>-150</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1732938366631</Id>
+					<Name><![CDATA[connector13]]></Name>
+					<X>400</X><Y>300</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedWait4]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedWait]]></ClassName>
+						<ItemName><![CDATA[out]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[pedService4]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.pedestrian]]></PackageName>
+						<ClassName><![CDATA[PedService]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>90</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
 			</Connectors>
 			<Functions>
 				<Function AccessType="default" StaticFunction="false">
@@ -923,7 +923,7 @@
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1732953934728</Id>
 					<Name><![CDATA[studentGender]]></Name>
-					<X>60</X><Y>300</Y>
+					<X>65.6</X><Y>237.6</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -933,6 +933,52 @@
 						<Type><![CDATA[Students]]></Type>
 					</Parameter>
 					<Body><![CDATA[ped.girl = randomTrue(0.50);]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>VOID</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1732981693690</Id>
+					<Name><![CDATA[serviceWait]]></Name>
+					<X>64</X><Y>269.6</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Parameter>
+						<Name><![CDATA[ped]]></Name>
+						<Type><![CDATA[Students]]></Type>
+					</Parameter>
+					<Body><![CDATA[if (pedService.size() > 10) {
+    ped.moveTo(freshmen); 
+} else {
+    ped.moveTo(pedService); 
+}
+
+if (pedService1.size() > 10) {
+    ped.moveTo(sophomore); 
+} else {
+    ped.moveTo(pedService1); 
+}
+
+if (pedService2.size() > 10) {
+    ped.moveTo(junior); 
+} else {
+   ped.moveTo(pedService2); 
+}
+
+if (pedService3.size() > 10) {
+    ped.moveTo(senior); 
+} else {
+    ped.moveTo(pedService3); 
+}
+
+if (pedService4.size() > 10) {
+    ped.moveTo(irregular); 
+} else {
+    ped.moveTo(pedService4); 
+}
+
+]]></Body>
 				</Function>
 			</Functions>
 			<AgentLinks>
@@ -1456,18 +1502,78 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[List<Agent> pedService = new ArrayList<>();
+List<Agent> pedWait = new ArrayList<>();
+
+if (pedService.size() < 10) { 
+    pedService.add(self); 
+    trace("freshmen");
+} else {
+    trace("freshmen full");
+    pedWait.add(self);
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[List<Agent> pedService1 = new ArrayList<>();
+List<Agent> pedWait1 = new ArrayList<>();
+
+if (pedService1.size() < 10) { 
+    pedService1.add(self); 
+    trace("sophomore");
+} else {
+    trace("sophomore full");
+      pedWait1.add(self);
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[List<Agent> pedService2 = new ArrayList<>();
+List<Agent> pedWait2 = new ArrayList<>();
+
+if (pedService2.size() < 10) { 
+    pedService2.add(self); 
+    trace("junior");
+} else {
+    trace("junior full");
+      pedWait2.add(self);
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[List<Agent> pedService3 = new ArrayList<>();
+List<Agent> pedWait3 = new ArrayList<>();
+if (pedService3.size() < 10) { 
+    pedService3.add(self); 
+    trace("senior");
+} else {
+    trace("senior full");
+      pedWait3.add(self);
+}]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[List<Agent> pedService4 = new ArrayList<>();
+List<Agent> pedWait4 = new ArrayList<>();
+
+if (pedService4.size() < 10) { 
+    pedService4.add(self); 
+    trace("irregular");
+} else {
+    
+    trace("irregular full");
+      pedWait4.add(self);
+}]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -1544,7 +1650,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(0.25, 40)]]></Code>
+								<Code><![CDATA[uniform(0.25, 0.4)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -1659,7 +1765,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(0.25, 40)]]></Code>
+								<Code><![CDATA[uniform(0.25, 0.4)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -1774,7 +1880,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(0.25, 40)]]></Code>
+								<Code><![CDATA[uniform(0.25, 0.4)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -1889,7 +1995,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(0.25, 40)]]></Code>
+								<Code><![CDATA[uniform(0.25, 0.4)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -2004,7 +2110,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTimeout]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[uniform(0.25, 40)]]></Code>
+								<Code><![CDATA[uniform(0.25, 0.4)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 							</Value>
 						</Parameter>
@@ -3211,7 +3317,7 @@
 				<TargetLine>
 					<Id>1732974839220</Id>
 					<Name><![CDATA[arrivalLine]]></Name>
-					<X>240</X><Y>880</Y>
+					<X>246</X><Y>880.667</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3347,7 +3453,7 @@
 				<Wall>
 					<Id>1732974839243</Id>
 					<Name><![CDATA[wall]]></Name>
-					<X>180</X><Y>900</Y>
+					<X>180.8</X><Y>978.4</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3362,20 +3468,20 @@
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-560</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-535</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>-560</Y><Z>0</Z></Point>
-						<Point><X>1060</X><Y>-560</Y><Z>0</Z></Point>
-						<Point><X>1035</X><Y>-560</Y><Z>0</Z></Point>
-						<Point><X>1060</X><Y>-535</Y><Z>0</Z></Point>
-						<Point><X>1060</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>1060</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>1060</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>15</X><Y>20</Y><Z>0</Z></Point>
+						<Point><X>-0.031000000000000028</X><Y>-25.000000000000007</Y><Z>0</Z></Point>
+						<Point><X>-0.8</X><Y>-638.4</Y><Z>0</Z></Point>
+						<Point><X>-0.769</X><Y>-613.4</Y><Z>0</Z></Point>
+						<Point><X>24.2</X><Y>-638.415</Y><Z>0</Z></Point>
+						<Point><X>1078.5330000000001</X><Y>-639.067</Y><Z>0</Z></Point>
+						<Point><X>1053.5330000000001</X><Y>-639.0509999999999</Y><Z>0</Z></Point>
+						<Point><X>1078.5330000000001</X><Y>-614.067</Y><Z>0</Z></Point>
+						<Point><X>1078.5330000000001</X><Y>0.9329999999999927</Y><Z>0</Z></Point>
+						<Point><X>1078.5330000000001</X><Y>-24.067000000000007</Y><Z>0</Z></Point>
+						<Point><X>1053.5330000000001</X><Y>0.9489999999999981</Y><Z>0</Z></Point>
+						<Point><X>1.2</X><Y>1.5999999999999943</Y><Z>0</Z></Point>
+						<Point><X>26.2</X><Y>1.5849999999999937</Y><Z>0</Z></Point>
+						<Point><X>-13.799999999999775</X><Y>-18.400000000000176</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<RectangleNode>
@@ -3862,8 +3968,8 @@
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1732974839334</Id>
 					<Name><![CDATA[enrollmentFormService]]></Name>
-					<X>397.549</X><Y>848.129</Y>
-					<Label><X>-100.388</X><Y>44.931</Y></Label>
+					<X>415.799</X><Y>856.674</Y>
+					<Label><X>-100.388</X><Y>64.938</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
@@ -3946,7 +4052,7 @@
 				<QueueLine>
 					<Id>1732974839336</Id>
 					<Name><![CDATA[queueLine]]></Name>
-					<X>397.549</X><Y>848.129</Y>
+					<X>417.75</X><Y>853.469</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3958,18 +4064,18 @@
 					<Capacity><![CDATA[10]]></Capacity>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>24.996</X><Y>1.075</Y></Point>
-						<Point><X>-24.996</X><Y>-1.075</Y></Point>
-						<Point><X>-59.991</X><Y>-2.58</Y></Point>
-						<Point><X>-14.998</X><Y>-0.645</Y></Point>
-						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>24.996</X><Y>1.31</Y></Point>
+						<Point><X>-25</X><Y>0.024</Y></Point>
+						<Point><X>-61.942</X><Y>0.06</Y></Point>
+						<Point><X>-36.942</X><Y>0.035</Y></Point>
+						<Point><X>-1.951</X><Y>3.204</Y></Point>
 					</Points>
 					<ExceededQueuePolicy>EXTEND_QUEUE_TO_THE_FREE_SPACE</ExceededQueuePolicy>
 				</QueueLine>
 				<QueueLine>
 					<Id>1732974839338</Id>
 					<Name><![CDATA[queueLine1]]></Name>
-					<X>397.898</X><Y>798.828</Y>
+					<X>415.05</X><Y>793.626</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3981,18 +4087,18 @@
 					<Capacity><![CDATA[10]]></Capacity>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>24.996</X><Y>1.075</Y></Point>
-						<Point><X>-24.996</X><Y>-1.075</Y></Point>
-						<Point><X>-59.991</X><Y>-2.58</Y></Point>
-						<Point><X>-14.998</X><Y>-0.645</Y></Point>
-						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>24.996</X><Y>1.31</Y></Point>
+						<Point><X>-25</X><Y>-0.08</Y></Point>
+						<Point><X>-58.893</X><Y>-0.186</Y></Point>
+						<Point><X>-33.893</X><Y>-0.106</Y></Point>
+						<Point><X>1.098</X><Y>2.96</Y></Point>
 					</Points>
 					<ExceededQueuePolicy>EXTEND_QUEUE_TO_THE_FREE_SPACE</ExceededQueuePolicy>
 				</QueueLine>
 				<ServicePoint>
 					<Id>1732974839340</Id>
 					<Name><![CDATA[servicePoint]]></Name>
-					<X>317.561</X><Y>844.687</Y>
+					<X>335.811</X><Y>852.478</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4006,7 +4112,7 @@
 				<ServicePoint>
 					<Id>1732974839342</Id>
 					<Name><![CDATA[servicePoint1]]></Name>
-					<X>317.91</X><Y>795.386</Y>
+					<X>336.16</X><Y>792.391</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4307,8 +4413,8 @@
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1732974839371</Id>
 					<Name><![CDATA[seniorSubmission]]></Name>
-					<X>367.248</X><Y>620</Y>
-					<Label><X>71.999</X><Y>0</Y></Label>
+					<X>360.806</X><Y>620</Y>
+					<Label><X>68.169</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
@@ -4391,7 +4497,7 @@
 				<QueueLine>
 					<Id>1732974839373</Id>
 					<Name><![CDATA[queueLine5]]></Name>
-					<X>350</X><Y>620</Y>
+					<X>342.871</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -4403,10 +4509,10 @@
 					<Capacity><![CDATA[10]]></Capacity>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-52.357</X><Y>0</Y></Point>
-						<Point><X>52.357</X><Y>0</Y></Point>
-						<Point><X>125.656</X><Y>0</Y></Point>
-						<Point><X>31.414</X><Y>0</Y></Point>
+						<Point><X>-54.443</X><Y>0</Y></Point>
+						<Point><X>54.443</X><Y>0</Y></Point>
+						<Point><X>130.662</X><Y>0</Y></Point>
+						<Point><X>32.666</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>0</Y></Point>
 					</Points>
 					<ExceededQueuePolicy>EXTEND_QUEUE_TO_THE_FREE_SPACE</ExceededQueuePolicy>
@@ -4414,7 +4520,7 @@
 				<ServicePoint>
 					<Id>1732974839375</Id>
 					<Name><![CDATA[servicePoint5]]></Name>
-					<X>517.541</X><Y>620</Y>
+					<X>517.087</X><Y>620</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5123,7 +5229,7 @@
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1732974839437</Id>
 					<Name><![CDATA[cashOffice]]></Name>
-					<X>1120</X><Y>428.375</Y>
+					<X>1090</X><Y>432.375</Y>
 					<Label><X>10</X><Y>-576.588</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5207,7 +5313,7 @@
 				<QueueLine>
 					<Id>1732974839439</Id>
 					<Name><![CDATA[queueLine10]]></Name>
-					<X>1120</X><Y>428.375</Y>
+					<X>1090</X><Y>432.375</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5230,7 +5336,7 @@
 				<QueueLine>
 					<Id>1732974839441</Id>
 					<Name><![CDATA[queueLine11]]></Name>
-					<X>1120</X><Y>519.552</Y>
+					<X>1090</X><Y>523.552</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5253,7 +5359,7 @@
 				<ServicePoint>
 					<Id>1732974839443</Id>
 					<Name><![CDATA[servicePoint10]]></Name>
-					<X>1200</X><Y>428.375</Y>
+					<X>1170</X><Y>432.375</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5267,7 +5373,7 @@
 				<ServicePoint>
 					<Id>1732974839445</Id>
 					<Name><![CDATA[servicePoint11]]></Name>
-					<X>1200</X><Y>519.552</Y>
+					<X>1170</X><Y>523.552</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5281,7 +5387,7 @@
 				<ServicePoint>
 					<Id>1732974839447</Id>
 					<Name><![CDATA[servicePoint12]]></Name>
-					<X>1200</X><Y>610.729</Y>
+					<X>1170</X><Y>614.729</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5295,7 +5401,7 @@
 				<QueueLine>
 					<Id>1732974839449</Id>
 					<Name><![CDATA[queueLine12]]></Name>
-					<X>1120</X><Y>610.729</Y>
+					<X>1090</X><Y>614.729</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5329,146 +5435,2260 @@
 					<WaitForExit>false</WaitForExit>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 				</ServiceWithLine>
-			</Presentation>
-
-				</Level>
-				<Level>
-					<Id>1732974777765</Id>
-					<Name><![CDATA[level1]]></Name>
-					<X>0</X><Y>0</Y>
+				<RectangleWall>
+					<Id>1732986098011</Id>
+					<Name><![CDATA[wall1]]></Name>
+					<X>528.667</X><Y>689</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732986111039</Id>
+					<Name><![CDATA[wall2]]></Name>
+					<X>529</X><Y>606.333</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732986117290</Id>
+					<Name><![CDATA[wall3]]></Name>
+					<X>529.667</X><Y>525.667</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732986120473</Id>
+					<Name><![CDATA[wall4]]></Name>
+					<X>530.333</X><Y>445.667</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732986124377</Id>
+					<Name><![CDATA[wall5]]></Name>
+					<X>529.667</X><Y>369</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<Figure3D>
+					<Id>1732986195763</Id>
+					<Name><![CDATA[officeWorker]]></Name>
+					<X>500.75</X><Y>464.75</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>500.75</X><Y>464.75</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986243430</Id>
+					<Name><![CDATA[officeWorker1]]></Name>
+					<X>501.25</X><Y>544.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>501.25</X><Y>544.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986249214</Id>
+					<Name><![CDATA[officeWorker2]]></Name>
+					<X>500.25</X><Y>624</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>500.25</X><Y>624</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986253016</Id>
+					<Name><![CDATA[officeWorker3]]></Name>
+					<X>502.5</X><Y>709</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>502.5</X><Y>709</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986259858</Id>
+					<Name><![CDATA[officeWorker4]]></Name>
+					<X>500.5</X><Y>388</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>500.5</X><Y>388</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986322753</Id>
+					<Name><![CDATA[check_in_counter1]]></Name>
+					<X>502.5</X><Y>388.25</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>502.5</X><Y>388.25</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986392217</Id>
+					<Name><![CDATA[check_in_counter2]]></Name>
+					<X>502.5</X><Y>463.75</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>502.5</X><Y>463.75</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986398482</Id>
+					<Name><![CDATA[check_in_counter3]]></Name>
+					<X>503.5</X><Y>541</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>503.5</X><Y>541</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986403291</Id>
+					<Name><![CDATA[check_in_counter4]]></Name>
+					<X>502</X><Y>623.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>502</X><Y>623.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986409925</Id>
+					<Name><![CDATA[check_in_counter5]]></Name>
+					<X>504.25</X><Y>707.75</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>504.25</X><Y>707.75</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986436594</Id>
+					<Name><![CDATA[doctor]]></Name>
+					<X>666</X><Y>397.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>666</X><Y>397.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/doctor.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-12180980</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-13331381</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-13355980</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__6__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-5274240</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986444387</Id>
+					<Name><![CDATA[person]]></Name>
+					<X>779</X><Y>420.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>779</X><Y>420.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/person.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__6__Surf]]></Name>
+							<OriginalColor>-4083577</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-13355980</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-13355980</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-5279952</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986458251</Id>
+					<Name><![CDATA[doctor1]]></Name>
+					<X>903.4</X><Y>384.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>903.4</X><Y>384.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/doctor.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-12180980</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-13331381</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-13355980</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__6__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-5274240</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986491740</Id>
+					<Name><![CDATA[ol]]></Name>
+					<X>748.25</X><Y>437.75</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>748.25</X><Y>437.75</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/ol.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_H06]]></Name>
+							<OriginalColor>-16724788</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_000]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_21]]></Name>
+							<OriginalColor>-16753801</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986512468</Id>
+					<Name><![CDATA[carm_part_1]]></Name>
+					<X>667.6</X><Y>370</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>667.6</X><Y>370</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/carm_part_1.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_002]]></Name>
+							<OriginalColor>-3815995</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_000]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-11447983</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_21]]></Name>
+							<OriginalColor>-16753801</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986543298</Id>
+					<Name><![CDATA[casecart]]></Name>
+					<X>918.8</X><Y>376.4</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>918.8</X><Y>376.4</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/casecart.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Wheels]]></Name>
+							<OriginalColor>-13027015</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Casecart_part_1]]></Name>
+							<OriginalColor>-10774119</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Casecart_part_2]]></Name>
+							<OriginalColor>-1973791</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Handles]]></Name>
+							<OriginalColor>-13027015</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732986552946</Id>
+					<Name><![CDATA[sink_2]]></Name>
+					<X>931.6</X><Y>376</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>931.6</X><Y>376</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/sink_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_0]]></Name>
+							<OriginalColor>-657931</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Wall>
+					<Id>1732986585114</Id>
+					<Name><![CDATA[wall6]]></Name>
+					<X>828</X><Y>457</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
-
-
-				</Level>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>20</ZHeight>
+					<Closed>false</Closed>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>50</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>-0.095</Y><Z>0</Z></Point>
+						<Point><X>131</X><Y>-0.5</Y><Z>0</Z></Point>
+						<Point><X>106</X><Y>-0.405</Y><Z>0</Z></Point>
+						<Point><X>131</X><Y>-25.5</Y><Z>0</Z></Point>
+						<Point><X>130.999</X><Y>-117.481</Y><Z>0</Z></Point>
+						<Point><X>130.999</X><Y>-92.481</Y><Z>0</Z></Point>
+						<Point><X>105.999</X><Y>-117.466</Y><Z>0</Z></Point>
+						<Point><X>-178.001</X><Y>-117.29</Y><Z>0</Z></Point>
+						<Point><X>-153.001</X><Y>-117.305</Y><Z>0</Z></Point>
+						<Point><X>-177.893</X><Y>-92.29</Y><Z>0</Z></Point>
+						<Point><X>-177.5</X><Y>-1</Y><Z>0</Z></Point>
+						<Point><X>-177.608</X><Y>-26</Y><Z>0</Z></Point>
+						<Point><X>-152.5</X><Y>-1</Y><Z>0</Z></Point>
+						<Point><X>-44</X><Y>-1</Y><Z>0</Z></Point>
+						<Point><X>-69</X><Y>-1</Y><Z>0</Z></Point>
+						<Point><X>-44</X><Y>39</Y><Z>0</Z></Point>
+					</Points>
+				</Wall>
+				<Wall>
+					<Id>1732986909666</Id>
+					<Name><![CDATA[wall7]]></Name>
+					<X>1194.667</X><Y>390.667</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>7</ZHeight>
+					<Closed>false</Closed>
+					<Points>
+						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>50</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>-14</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>11</X><Y>-9.999999999998899E-4</Y><Z>0</Z></Point>
+						<Point><X>-14</X><Y>25</Y><Z>0</Z></Point>
+						<Point><X>-14</X><Y>244.666</Y><Z>0</Z></Point>
+						<Point><X>-14</X><Y>219.666</Y><Z>0</Z></Point>
+						<Point><X>11</X><Y>244.666</Y><Z>0</Z></Point>
+						<Point><X>27.333</X><Y>244.666</Y><Z>0</Z></Point>
+						<Point><X>2.333</X><Y>244.666</Y><Z>0</Z></Point>
+						<Point><X>27.407</X><Y>219.666</Y><Z>0</Z></Point>
+						<Point><X>28</X><Y>20.666</Y><Z>0</Z></Point>
+						<Point><X>27.925</X><Y>45.666</Y><Z>0</Z></Point>
+						<Point><X>28</X><Y>-4.334</Y><Z>0</Z></Point>
+						<Point><X>28</X><Y>-0.667</Y><Z>0</Z></Point>
+						<Point><X>28</X><Y>24.333</Y><Z>0</Z></Point>
+						<Point><X>3</X><Y>-0.667</Y><Z>0</Z></Point>
+						<Point><X>16.666</X><Y>-0.667</Y><Z>0</Z></Point>
+						<Point><X>41.666</X><Y>-0.667</Y><Z>0</Z></Point>
+						<Point><X>16.666</X><Y>39.333</Y><Z>0</Z></Point>
+					</Points>
+				</Wall>
+				<RectangleWall>
+					<Id>1732987127665</Id>
+					<Name><![CDATA[wall8]]></Name>
+					<X>491.333</X><Y>524.667</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>10</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732987169240</Id>
+					<Name><![CDATA[wall9]]></Name>
+					<X>488.667</X><Y>447.333</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>10</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732987179663</Id>
+					<Name><![CDATA[wall10]]></Name>
+					<X>489.333</X><Y>368.667</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>10</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732987258484</Id>
+					<Name><![CDATA[wall11]]></Name>
+					<X>489.333</X><Y>605.333</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>10</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<RectangleWall>
+					<Id>1732987263544</Id>
+					<Name><![CDATA[wall12]]></Name>
+					<X>492</X><Y>689.333</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D</DrawMode>
+					<Z>0</Z>
+					<LineColor>-3308225</LineColor>
+					<LineWidth>2</LineWidth>
+					<LineMaterial>null</LineMaterial>
+					<FillingType>HATCHED_AREA</FillingType>
+					<ZHeight>10</ZHeight>
+					<Rotation>90.0</Rotation>
+					<Width>41</Width>
+					<Height>8.067</Height>
+				</RectangleWall>
+				<Figure3D>
+					<Id>1732987303346</Id>
+					<Name><![CDATA[woman_2]]></Name>
+					<X>1189.6</X><Y>438.8</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1189.6</X><Y>438.8</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/woman_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987326089</Id>
+					<Name><![CDATA[officeWorker5]]></Name>
+					<X>1190</X><Y>527.2</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1190</X><Y>527.2</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987338127</Id>
+					<Name><![CDATA[woman_3]]></Name>
+					<X>1190.2</X><Y>613.6</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1190.2</X><Y>613.6</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/woman_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987354552</Id>
+					<Name><![CDATA[check_in_counter6]]></Name>
+					<X>1194.333</X><Y>611.667</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1194.333</X><Y>611.667</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987369425</Id>
+					<Name><![CDATA[check_in_counter7]]></Name>
+					<X>1194</X><Y>525.333</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1194</X><Y>525.333</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987374032</Id>
+					<Name><![CDATA[check_in_counter8]]></Name>
+					<X>1194.5</X><Y>437</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1194.5</X><Y>437</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987388000</Id>
+					<Name><![CDATA[woman_4]]></Name>
+					<X>322</X><Y>792.25</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>322</X><Y>792.25</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/woman_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987391569</Id>
+					<Name><![CDATA[officeWorker6]]></Name>
+					<X>324.25</X><Y>851</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>324.25</X><Y>851</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/officeworker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[Material__1__Surf]]></Name>
+							<OriginalColor>-3407872</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__2__Surf]]></Name>
+							<OriginalColor>-12434878</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__3__Surf]]></Name>
+							<OriginalColor>-9353174</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__4__Surf]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[Material__5__Surf]]></Name>
+							<OriginalColor>-3361145</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>YZX_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987525899</Id>
+					<Name><![CDATA[check_in_counter]]></Name>
+					<X>321.25</X><Y>794.75</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>321.25</X><Y>794.75</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987585388</Id>
+					<Name><![CDATA[check_in_counter9]]></Name>
+					<X>323</X><Y>852.75</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>323</X><Y>852.75</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987718694</Id>
+					<Name><![CDATA[check_in_counter10]]></Name>
+					<X>1082</X><Y>740.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1082</X><Y>740.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/check_in_counter.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[printer]]></Name>
+							<OriginalColor>-1052689</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_base]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_2]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair]]></Name>
+							<OriginalColor>-10467515</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[chair_legs]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keys]]></Name>
+							<OriginalColor>-8947849</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk]]></Name>
+							<OriginalColor>-2565928</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[desk_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[phone]]></Name>
+							<OriginalColor>-10461088</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[printer_part_1]]></Name>
+							<OriginalColor>-11776948</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[conveyor]]></Name>
+							<OriginalColor>-2894893</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[belt]]></Name>
+							<OriginalColor>-9737365</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[keyboard]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[top_monitor_lcd]]></Name>
+							<OriginalColor>-6234904</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[wheels]]></Name>
+							<OriginalColor>-13421773</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse]]></Name>
+							<OriginalColor>-12303292</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[mouse_wheel]]></Name>
+							<OriginalColor>-3026479</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1732987729951</Id>
+					<Name><![CDATA[woman_5]]></Name>
+					<X>1083.5</X><Y>737.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>1083.5</X><Y>737.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[enrollement_system]]></PackageName>
+						<ClassName><![CDATA[3d/woman_2.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_009]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_006]]></Name>
+							<OriginalColor>-3367560</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_B18]]></Name>
+							<OriginalColor>-10078168</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_11]]></Name>
+							<OriginalColor>-16777216</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_12]]></Name>
+							<OriginalColor>-2148</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_A03]]></Name>
+							<OriginalColor>-39836</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
 			</Presentation>
 
-		</ActiveObjectClass>
-		<!--   =========   Active Object Class   ========  -->
-		<ActiveObjectClass>
-			<Id>1732851862856</Id>
-			<Name><![CDATA[Student]]></Name>
-			<Generic>false</Generic>
-			<GenericParameter>
-				<Id>1732851862862</Id>
-				<Name><![CDATA[1732851862862]]></Name>
-				<GenericParameterValue Class="CodeValue">
-					<Code><![CDATA[T extends Agent]]></Code>
-				</GenericParameterValue>
-				<GenericParameterLabel><![CDATA[Generic parameter:]]></GenericParameterLabel>
-			</GenericParameter>
-			<FlowChartsUsage>ENTITY</FlowChartsUsage>
-			<SamplesToKeep>100</SamplesToKeep>
-			<LimitNumberOfArrayElements>false</LimitNumberOfArrayElements>
-			<ElementsLimitValue>100</ElementsLimitValue>
-			<MakeDefaultViewArea>true</MakeDefaultViewArea>
-			<SceneGridColor/>
-			<SceneBackgroundColor/>
-			<SceneSkybox>null</SceneSkybox>
-			<AgentProperties>
-				<EnvironmentDefinesInitialLocation>true</EnvironmentDefinesInitialLocation>
-				<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
-				<RotateAnimationVertically>false</RotateAnimationVertically>
-				<VelocityCode Class="CodeUnitValue">
-					<Code><![CDATA[10]]></Code>
-					<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-				</VelocityCode>
-				<PhysicalLength Class="CodeUnitValue">
-					<Code><![CDATA[1]]></Code>
-					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-				</PhysicalLength>
-				<PhysicalWidth Class="CodeUnitValue">
-					<Code><![CDATA[1]]></Code>
-					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-				</PhysicalWidth>
-				<PhysicalHeight Class="CodeUnitValue">
-					<Code><![CDATA[1]]></Code>
-					<Unit Class="LengthUnits"><![CDATA[METER]]></Unit>
-				</PhysicalHeight>
-			</AgentProperties>
-			<EnvironmentProperties>
-					<EnableSteps>false</EnableSteps>
-					<StepDurationCode Class="CodeUnitValue">
-						<Code><![CDATA[1.0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</StepDurationCode>
-					<SpaceType>CONTINUOUS</SpaceType>
-					<WidthCode><![CDATA[500]]></WidthCode>
-					<HeightCode><![CDATA[500]]></HeightCode>
-					<ZHeightCode><![CDATA[0]]></ZHeightCode>
-					<ColumnsCountCode><![CDATA[100]]></ColumnsCountCode>
-					<RowsCountCode><![CDATA[100]]></RowsCountCode>
-					<NeigborhoodType>MOORE</NeigborhoodType>
-					<LayoutType>USER_DEF</LayoutType>
-					<NetworkType>USER_DEF</NetworkType>
-					<ConnectionsPerAgentCode><![CDATA[2]]></ConnectionsPerAgentCode>
-					<ConnectionsRangeCode><![CDATA[50]]></ConnectionsRangeCode>
-					<NeighborLinkFractionCode><![CDATA[0.95]]></NeighborLinkFractionCode>
-					<MCode><![CDATA[10]]></MCode>
-			</EnvironmentProperties>
-			<DatasetsCreationProperties>
-				<AutoCreate>true</AutoCreate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1732867200000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-					</RecurrenceCode>
-			</DatasetsCreationProperties>
-			<ScaleRuler>
-				<Id>1732851862859</Id>
-				<Name><![CDATA[scale]]></Name>
-				<X>0</X><Y>-150</Y>
-				<PublicFlag>false</PublicFlag>
-				<PresentationFlag>false</PresentationFlag>
-				<ShowLabel>false</ShowLabel>
-				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-				<Length>100</Length>
-				<Rotation>0</Rotation>
-				<ScaleType>BASED_ON_LENGTH</ScaleType>
-				<ModelLength>10</ModelLength>
-				<LengthUnits>METER</LengthUnits>
-				<Scale>10</Scale>
-				<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
-			</ScaleRuler>
-			<CurrentLevel>1732851862863</CurrentLevel>
-			<ConnectionsId>1732851862857</ConnectionsId>
-			<AgentLinks>
-				<AgentLink>
-					<Id>1732851862857</Id>
-					<Name><![CDATA[connections]]></Name>
-					<X>50</X><Y>-50</Y>
-					<Label><X>15</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<HandleReceiveInConnections>false</HandleReceiveInConnections>
-					<AgentLinkType>COLLECTION_OF_LINKS</AgentLinkType>
-					<AgentLinkBidirectional>true</AgentLinkBidirectional>
-					<MessageType><![CDATA[Object]]></MessageType>
-					<LineStyle>SOLID</LineStyle>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineZOrder>UNDER_AGENTS</LineZOrder>
-					<LineArrow>NONE</LineArrow>
-					<LineArrowPosition>END</LineArrowPosition>
-				</AgentLink>
-			</AgentLinks>
-
-
-			<Presentation>
+				</Level>
 				<Level>
-					<Id>1732851862863</Id>
-					<Name><![CDATA[level]]></Name>
+					<Id>1732974777765</Id>
+					<Name><![CDATA[level1]]></Name>
 					<X>0</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -5895,6 +8115,51 @@
 		</Resource>
 		<Resource>
 			<Path><![CDATA[462583280_1676885009710588_3143887907476377436_n.png]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/officeworker.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/check_in_counter.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/doctor.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/person.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/ol.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/carm_part_1.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/casecart.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/sink_2.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Path><![CDATA[3d/woman_2.dae]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
